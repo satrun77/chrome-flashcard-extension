@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Search FlashCard",
+  "description": "This extensions is to search flashcard site (flashcard.my.geek.nz).",
+  "version": "1.0.0",
+  "browser_action": {
+    "default_icon": "icon48.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png",
+    "200": "icon.png"
+  },
+  "permissions": [
+    "storage",
+    "http://flashcard.my.geek.nz/"
+  ]
+}
