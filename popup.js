@@ -23,7 +23,7 @@ function searchCards() {
     event.preventDefault();
 
     searchTerm = element('search').value;
-    var searchUrl = 'http://flashcard.my.geek.nz/api/cards.html?query=' + encodeURIComponent(searchTerm);
+    var searchUrl = 'https://flashcard.my.geek.nz/api/cards.html?query=' + encodeURIComponent(searchTerm);
     var cards = element('cards-wrapper');
     chrome.storage.local.set({'searchTerm': searchTerm});
     if (searchResult == '') {

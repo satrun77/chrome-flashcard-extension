@@ -15,6 +15,6 @@
   },
   "permissions": [
     "storage",
-    "http://flashcard.my.geek.nz/"
+    "https://flashcard.my.geek.nz/"
   ]
 }
